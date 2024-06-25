@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Sign</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script type="module" src="./index.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>Please Sign below</h1>
+    </div>
+    <div class="canvas">
+      <canvas id="myCanvas"> Your browser does not support canvas tag. </canvas>
+    </div>
+    <div class="btn-container">
+      <button class="btn export-btn"><h2>Export the signature</h2></button>
+      <button class="btn reset-btn"><h2>Reset the signature</h2></button>
+    </div>
+  </body>
+</html>
